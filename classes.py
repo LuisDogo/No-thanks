@@ -80,14 +80,5 @@ class game:
                     else:
                         ith_player += 1
 
-
-
         for player in self.players:
-            print(f"{player.name} obtuvo: {player.points - player.counters}")
-
-        # for player in players:
-        #     print(f"{player} tuvo {player.points}")
-
-
-g = game(3)
-g.start()
+            print(f"{player.name} obtuvo: {player.points - player.counters} puntos")
